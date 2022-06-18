@@ -16,7 +16,6 @@ class Home extends Component {
   // updates the state with the new list.
   addTodo = (todo) => {
 
-    // TODO
     if (this.state.todos.find(item => item.content === todo.content)) {
       return;
 
